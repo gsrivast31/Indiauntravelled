@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+By Fala
+*/
+
+
+body {
+	font-family:"Aller", Arial, Helvetica, sans-serif;
+	background:#FFF;
+	position:relative;
+}
+a {
+	color:#2cc76a;
+}
+a:hover, a:focus {
+	color:#1eb45a;
+}
+h1, h2, h3, h4 {
+	font-weight:bold;
+}
+p {
+	color: #E8E8E8;
+	font-family: 'Aller', sans-serif;
+	font-size: 25px;
+}
+
+.jumbotron {
+	position: relative;
+	color: #fff;
+	/*text-align: center;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);*/
+	background:linear-gradient(
+      			rgba(0, 0, 0, 0.45), 
+      			rgba(0, 0, 0, 0.45)
+    			),url(../images/bg.jpg) no-repeat #232a31; /* Old browsers */
+	height:100%;
+	background-size:cover;
+	overflow:hidden;
+}
+
+.layer {
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+ }
+
+.btn-lg {
+	font-size:18px;
+	padding:20px 50px;
+	margin:5px 10px;
+}
+.btn-success {
+	background-color: #2cc76a;
+	background-image:none;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+	background-color: #22bb5f!important;
+	color:#FFF!important;
+}
+.btn-primary {
+	background-color: #2db6d8;
+	background-image:none;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+	background-color: #209ab8!important;
+	color:#FFF!important;
+}
+.btn-danger {
+	background-color: #f45c57;
+	background-image:none;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+	background-color: #eb534e!important;
+	color:#FFF!important;
+}
+
+.hero-unit {
+	background:none;
+	
+	padding: 60px;
+	padding-top:130px;
+	margin-bottom: 0px;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+	color: inherit;
+}
+.hero-unit h1 {
+	padding-bottom:15px;
+	font-weight:bold;
+}
+.hero-unit h3 {
+	font-weight:normal;
+	padding-bottom:15px;
+	line-height: 1.5;
+	color: #D5D5D5;
+}
+.slide2 {
+	background:none;
+	text-align:center;
+	padding-top:90px;
+}
+.slide2 h1 {
+	font-size:50px;
+	font-weight:bold;
+}
+.slide3 {
+	background:none;
+	text-align:left;
+	padding-top:100px;
+}
+.slide3 h1 {
+	font-size:50px;
+	padding-top:90px;
+	font-weight:bold;
+}
+.slide3 h3 {
+	font-size:20px;
+	padding-right:20px;
+	color: #D5D5D5;
+	line-height: 1.5;
+}
+
+
+@media (max-width: 979px) {
+.hero-unit {
+padding: 190px 0;
+padding-bottom:0;
+}
+ .hero-unit h1 {
+ font-size:50px;
+}
+ .hero-unit h3 {
+ font-size:18px;
+ line-height:25px;
+ padding-top:5px;
+ padding-bottom:5px;
+ font-weight:normal;
+}
+ .navbar .navbar-btn {
+margin-top: 20px;
+background: transparent;
+text-shadow: none;
+border: 0;
+box-shadow: none;
+}
+ .navbar .navbar-btn:hover {
+ background: transparent;
+}
+ .navbar-fixed-top.navbar-absolute {
+ position: absolute;
+ margin: 0;
+}
+ .navbar-collapse .nav > li > a:hover, .navbar-collapse .nav > li > a:focus, .navbar-collapse .dropdown-menu a:hover, .navbar-collapse .dropdown-menu a:focus {
+ background:transparent;
+}
+ .slide2, .slide3 {
+padding-top: 150px;
+}
+ .slide3 h1, .slide2 h1 {
+ font-size:34px;
+}
+ .slide3 h3, .slide2 h3 {
+ font-size:18px;
+ line-height:25px;
+ padding-top:5px;
+ padding-bottom:5px;
+ font-weight:normal;
+}
+}
+ @media (max-width: 767px) {
+.jumbotron {
+
+margin-top: -20px;
+height:auto;
+}
+.hero-unit {
+padding: 100px 0;
+padding-bottom:0;
+}
+ .hero-unit h1 {
+ font-size:36px;
+}
+.flex-direction-nav {
+display: none;
+}
+ .PageHead h3, .FeatLayout h3 {
+ font-size:20px;
+ line-height:25px;
+ padding-top:5px;
+ padding-bottom:5px;
+}
+ .jumbotron .navbar-fixed-top.navbar-absolute {
+ top: 20px;
+}
+ .navbar .navbar-btn {
+margin-top: 23px;
+}
+ .domain {
+padding: 0 20px;
+margin-bottom: -20px;
+}
+ .domain .input-append input.span11 {
+ width:83%;
+}
+ .footer {
+padding: 20px 20px;
+margin-bottom: -20px;
+}
+}
+ @media (max-width: 480px) {
+ .domain .input-append input.span11 {
+ width:74%;
+}
+ .ticklist li {
+ width:100%;
+}
+ .modal {
+ width:auto;
+}
+}
+ @media (min-width: 768px) {
+.navbar li.dropdown:hover ul {
+ display:block;
+}
+}
